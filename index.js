@@ -11,8 +11,8 @@ const port = 8080;
 
 // CORS configuration
 const corsOptions = {
-    origin: 'https://your-s3-website-url.com',  // Allow only your frontend domain
-    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+    origin: 'http://expense-s3-cors.s3-website.ap-south-1.amazonaws.com',  // Allow only your frontend domain
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization'],
     credentials: true  // Allow cookies or credentials, if required
 };
